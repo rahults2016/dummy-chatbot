@@ -3,7 +3,7 @@
 
 export const CHATBASE_CONFIG = {
   // Your Chatbase Bot ID - get this from your Chatbase dashboard
-  CHATBASE_BOT_ID: process.env.REACT_APP_CHATBASE_BOT_ID || 'YOUR_CHATBASE_BOT_ID',
+  CHATBASE_BOT_ID: process.env.REACT_APP_CHATBASE_BOT_ID || 'tVWU8meuo_FBMtQTfL5Pt',
   
   // Your domain for identity verification (optional)
   DOMAIN: process.env.REACT_APP_DOMAIN || 'localhost:3000',

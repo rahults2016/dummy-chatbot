@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+.dev-info {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-family: monospace;
+  z-index: 9999;
+}
+
+.dev-info p {
+  margin: 2px 0;
+}
+
+@media (max-width: 768px) {
+  .dev-info {
+    display: none;
+  }
+}
